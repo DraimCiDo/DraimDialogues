@@ -1,0 +1,24 @@
+name: DraimDialogues
+version: '${project.version}'
+main: me.draimcido.draimdialogues.Main
+api-version: 1.19
+authors: [ DraimGooSe ]
+description: Dialogues with NPC
+website: https://draimcido.net
+softdepend:
+  - PlaceholderAPI
+  - ItemsAdder
+  - Citizens
+
+commands:
+  draimdialogues:
+    description: Основная комада.
+    aliases:
+      - dd
+      - ddialogues
+
+permissions:
+  draimdialogues.reload:
+    description: Права на команду /dd reload
+  draimdialogues.test:
+    description: Тестовая команда.

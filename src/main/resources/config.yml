@@ -1,0 +1,10 @@
+messages:
+  plugin-reloaded: "actionbar! &8(&6&l!&8) &7Plugin successfully reloaded!"
+  no-permission: "chat! &8(&6&l!&8) &7Insufficient permissions!"
+  not-selected: "chat! &8(&6&l!&8) &7NPC not selected!"
+
+dialogues:
+  wumpys:
+    npc-picture: '"draim:wumpys"'
+    line1: "chat! Линия 1"
+    other_lines: "chat! \nЛиния 2\nЛиния 3\nЛиния 4\nЛиния 5\nЛиния 6"
